@@ -1,0 +1,3 @@
+Deploy a Web App to AWS Using Terraform
+Use Terraform to provision AWS resources (EC2 instances, security groups, load balancers) and deploy a simple web application. 
+This project helps deepen your Terraform skills and exposes you to AWS resource management.
