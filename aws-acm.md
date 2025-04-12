@@ -33,7 +33,7 @@
 - Click **Review**.
 
 ---
-444444Step 6: Submit the Request**
+## **Step 6: Submit the Request**
 - Click **Confirm and request**.
 
 At this point, AWS will generate a **CNAME record** for DNS validation.
