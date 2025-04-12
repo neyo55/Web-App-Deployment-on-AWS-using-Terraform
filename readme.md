@@ -1,4 +1,4 @@
-# **Deployment of a Web App on AWS using Terraform**
+# **Deployment of a Web App on AWS using Terraform and Securing it with Cloudflare DNS and Amazon Certificate Manager**
 ---
 ## **Introduction**
 This readme provides a **step-by-step** approach to deploying a **highly available** and **auto-scaling web application** on AWS using Terraform. This readme is designed to be **beginner-friendly**, ensuring that anyone can follow the steps and set up the infrastructure.
@@ -485,7 +485,7 @@ systemctl enable apache2
 
 # Deploy Web Content
 echo "Deploying web content..."
-echo "<h1>Deployed via Terraform 🚀</h1>" > /var/www/html/index.html
+echo "<h1>Deployed via Terraform </h1>" > /var/www/html/index.html
 
 echo "User data script execution completed at $(date)"
 
@@ -776,7 +776,7 @@ You have successfully deployed a **highly available**, **auto-scaling** web appl
 
 ---
 
-## **Possble addition to make your setup robust**
+## **Possble addition to make your setup robust (Click the links below)**
 - Implement **SSL/TLS** using **Cloudflare and AWS ACM**. [AWS ACM/Cloudflare Setup](./aws-acm.md)
 - Improve security with **IAM roles and policies**. [S3 Bucket with IAM Roles and Policies](./s3-bucket-setup.md)
 - Set up **monitoring with CloudWatch metrics**. [Autoscaling/ CloudWatch Setup](./autoscaling.md)
